@@ -1,0 +1,25 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+virtenv/
+
+# Django migrations
+todoweb/migrations/
+
+# Database files
+*.sqlite3
+
+# Log files
+*.log
+
+# Editor swap files
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
