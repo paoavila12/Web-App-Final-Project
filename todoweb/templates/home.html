@@ -2,6 +2,11 @@
 
 {% block content %}
 
-<h1>Hello World again</h1>
+<h1>Active Records</h1>
+{% if records %}
+    {% for record in records %}
+    {{record.first_name}}<br/>
+    {% endfor %}
+{% endif %}
 
 {% endblock%}

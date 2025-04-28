@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'djangowebapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'C:/se_2025/final project repo/Final-Project-Software_Engineering/toDoListAssignments.db',
     }
 }
 
